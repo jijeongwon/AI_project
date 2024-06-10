@@ -1,4 +1,4 @@
-# 의료보험료 예측을 위한 머신러닝 모델 설계 프로젝트
+## 의료보험료 예측을 위한 머신러닝 모델 설계 프로젝트
 
 본 프로젝트는 Kaggle Competition에서 사용된 데이터셋을 이용하여 진행되었다.
  + [의료 보험료 예측 데이터셋](https://www.kaggle.com/datasets/tejashvi14/medical-insurance-premium-prediction)
