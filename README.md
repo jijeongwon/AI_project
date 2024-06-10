@@ -3,8 +3,7 @@
 본 프로젝트는 Kaggle Competition에서 사용된 데이터셋을 이용하여 진행되었다.
  + [의료 보험료 예측 데이터셋](https://www.kaggle.com/datasets/tejashvi14/medical-insurance-premium-prediction)
 
-The Dataset Contains Health Related Parameters Of The Customers. Use Them To Build A Model And Also Perform EDA On The Same.
-The Premium Price Is In INR(₹) Currency And Showcases Prices For A Whole Year.
+-> Age, Diabetes, Blood Pressure Problems, Any Transplants, Any Chronic Diseases, Height, Weight, Known Allergies, History of Cancer in Family, Number of Major surgeries, Insurance Price
 
 ## I. 프로젝트 개요
 
