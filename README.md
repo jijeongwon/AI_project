@@ -13,7 +13,7 @@
 + [II. 데이터 특징 공학](https://github.com/jijeongwon/AI_project/blob/main/README.md#ii-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8A%B9%EC%A7%95%EA%B3%B5%ED%95%99)
 + [III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85)
 + [IV. 실험 결과](https://github.com/jijeongwon/AI_project/blob/main/README.md#iv-%EC%8B%A4%ED%97%98-%EA%B2%B0%EA%B3%BC)
-+ [V. 추후 개선 사항](
++ [V. 추후 개선 사항](https://github.com/jijeongwon/AI_project/blob/main/README.md#v-%EC%B6%94%ED%9B%84-%EA%B0%9C%EC%84%A0-%EC%82%AC%ED%95%AD)
 
 ***
 
@@ -75,17 +75,17 @@ Train data 개수 : 788, Test data 개수 : 198
 
 (평가 지표는 R-Squared를 사용하였고, Loss는 MAE를 사용하였다.)
 
-+ Gradient Boosting
++ **Gradient Boosting**
   + learning_rate, n_estimators, max_depth, min_samples_leaf 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
   + **Train : 0.9192, Test : 0.8806**
   + **Loss : 1387.4**
 
-+ LightGBM
++ **LightGBM**
   + num_leaves, min_child_samples, learning_rate, n_estimators, max_depth 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
   + **Train : 0.9253, Test : 0.8905**
   + **Loss : 1192.5**
 
-+ Random Forest
++ **Random Forest**
   + n_estimators, max_depth, min_samples_leaf, min_samples_split 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
   + **Train : 0.9152, Test : 0.9020**
   + **Loss : 957.7**
