@@ -31,7 +31,7 @@
 
    #### 3. 데이터셋 소개
 
-Train data 개수 : 788, Test data 개수 : 198
+Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 + Age : 나이
 + Diabetes : 당뇨병 여부
 + Blood Pressure Problems : 혈압 문제 유무
