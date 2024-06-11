@@ -100,13 +100,17 @@ Train data 개수 : 788, Test data 개수 : 198
 
 <img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/af30cf35-48dc-4fde-ab67-81031d9372eb"/>
 
-위의 [III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85) 에서도 언급했듯이, 평가 지표는 **R-Squared**를 사용하였고, Loss는 **MAE**를 사용하였다.
+[III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85) 에서도 언급했듯이, 평가 지표는 **R-Squared**를 사용하였고, Loss는 **MAE**를 사용하였다.
+
 
 
 ***
 
-## V. 추후 개선 사항
+## V. 추후 개선 사항 (+한계점)
 
+1. 데이터의 갯수가 약 1000개로 적은 숫자였기 때문에 Overfitting은 일어나지 않았지만, 더욱 심도있는 데이터 분석을 하기에는 어려운 점이 있었다.
+
+2. 모델의 성능을 더욱 올릴 수 있도록 더 많은 feature engineering을 시도해보면 좋을 것 같다.
 
 
 ***
