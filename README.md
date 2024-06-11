@@ -153,7 +153,7 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 (Flask 구축 위해 필요한 코드 모두 업로드 했습니다. -> app.py, home.html, result_high.html, result_mid.html, result_low.html) 
 
 
-(flask.zip)
+[(flask.zip)](https://github.com/jijeongwon/AI_project/raw/main/flask.zip)
 
 
 ***
