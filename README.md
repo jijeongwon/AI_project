@@ -12,8 +12,8 @@
 + [I. 프로젝트 개요](https://github.com/jijeongwon/AI_project/blob/main/README.md#i-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
 + [II. 데이터 특징 공학](https://github.com/jijeongwon/AI_project/blob/main/README.md#ii-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8A%B9%EC%A7%95%EA%B3%B5%ED%95%99)
 + [III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85)
-+ V. 실험 결과
-+ IV. 추후 개선 사항
++ [IV. 실험 결과]
++ [V. 추후 개선 사항]
 
 ***
 
@@ -71,7 +71,7 @@ Train data 개수 : 788, Test data 개수 : 198
 
 ## III. 모델 설명
 
-1. 머신러닝 모델 : 다양한 모델링 기법을 사용하며 성능을 개선하기 위해 비교해 보았다. 다음은 여러 모델 중 성능이 가장 높았던 세 가지를 순서대로 나열한 것이다.
+1. 머신러닝 모델 : 다양한 모델링 기법을 사용하며 성능을 개선하기 위해 비교해 보았다. 다음은 여러 모델(LR, DT, MLP, Ada, ELasticNet, ...) 중 성능이 가장 높았던 세 가지를 순서대로 나열한 것이다.
 
 (평가 지표는 R-Squared를 사용하였고, Loss는 MAE를 사용하였다.)
 
@@ -92,14 +92,16 @@ Train data 개수 : 788, Test data 개수 : 198
 
 #### 테스트 해본 여러가지 모델 중 Random Forest 모델이 가장 높은 정확도를 가지고 있으며, 다양한 데이터에 대한 처리 및 해석에 유용하다고 생각했기 때문에 최종적으로 이 모댈을 활용하여 의료 보험료 예측 모델을 설계하였다. 
 
+***
+
+## IV. 실험 결과
+
+
 
 ***
 
-별 세 개를 입력하면 구분선이 생기네요
+## V. 추후 개선 사항
 
 
-+ 플러스 표시를 치면 얘가 쩜으로 바뀐대요
 
-+ 지금은 사진 경로를 표시해 볼게요
-
-[이미지](사진.jpg)
+***
