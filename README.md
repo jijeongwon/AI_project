@@ -56,7 +56,7 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 ## II. 데이터 특징 공학
 
-   #### 1. 원본 데이터셋을 살펴봤을 때 답변 모두 이진화가 완료되어 있었기 때문에 따로 진행하지 않았지만, 기존보다 더 나은 결과를 얻기 위해 Data Synthesis를 진행하여 feature 수를 늘렸다.
+   #### 1. 원본 데이터셋을 살펴봤을 때 data 모두 이진화가 완료되어 있었기 때문에 따로 진행하지 않았지만, 기존보다 더 나은 결과를 얻기 위해 Data Synthesis를 진행하여 feature 수를 늘렸다.
 
 <img width="65%" src="https://github.com/jijeongwon/AI_project/assets/144203449/78ae31fe-12ba-40f7-a0e6-835bff7766cb"/>
    
