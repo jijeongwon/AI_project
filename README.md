@@ -3,7 +3,7 @@
 본 프로젝트는 Kaggle Competition에서 사용된 데이터셋을 이용하여 진행되었다.
  + [의료 보험료 예측 데이터셋](https://www.kaggle.com/datasets/tejashvi14/medical-insurance-premium-prediction)
 
--> "나이, 당뇨병유무, 혈압문제유무, 장기이식여부, 만성질환여부, 키, 몸무게, 알러지유무, 가족 내 암환자 여부, 큰수술 횟수" 의 10가지 특성을 통해 Insurance Price 예측
+=> "나이, 당뇨병유무, 혈압문제유무, 장기이식여부, 만성질환여부, 키, 몸무게, 알러지유무, 가족 내 암환자 여부, 큰수술 횟수" 의 10가지 특성을 통해 Insurance Price 예측
 
 ### 목차
 
