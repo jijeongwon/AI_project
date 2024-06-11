@@ -123,13 +123,15 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 ## IV. 실험 결과
 
-+ **다음은 Random Forest 모델을 사용하여 Ablation Study를 진행한 표이다.** 
++ **다음은 Random Forest 모델을 사용하여 Ablation Study를 진행한 표이다. (Synthesis data 생성 전)** 
 
 <img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/af30cf35-48dc-4fde-ab67-81031d9372eb"/>
 
 [III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85) 에서도 언급했듯이, 평가 지표는 **R-Squared**를 사용하였고, Loss는 **MAE**를 사용하였다.
 
 표를 보면, 실험 3에서 가장 높은 성능을 얻은 것을 알 수 있다. 하이퍼파라미터는 각각 max_depth=15, n_estimators=50, min_samples_leaf=2, min_samples_split=4로 조정했다.
+
++ **Synthesis data 추가 후 Ablation Study를 진행한 표이다.** 
 
 + **아래의 그림은 Actual values와 Predicted values의 위치를 비교한 그래프이다.**
 
