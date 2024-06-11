@@ -91,7 +91,7 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
   + **Train : 0.9152, Test : 0.9020**
   + **Loss : 957.7**
 
-#### 테스트 해본 여러가지 모델 중 Random Forest 모델이 가장 높은 정확도를 가지고 있으며, 다양한 데이터에 대한 처리 및 해석에 유용하다고 생각했기 때문에 최종적으로 이 모댈을 활용하여 의료 보험료 예측 모델을 설계하였다. 
+#### 테스트 해본 여러가지 모델 중 Random Forest 모델이 가장 높은 정확도를 가지고 있으며, 다양한 데이터에 대한 처리 및 해석에 유용하다고 생각했기 때문에 최종적으로 이 모델을 활용하여 의료 보험료 예측 모델을 설계하였다. 
 
 ***
 
@@ -135,7 +135,7 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 <img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/4c5f6c58-cb75-4aef-af45-aa2f60c705cf"/>
 
-Synthesis data를 추가하기 전보다 최고 성능이 0.001정도 낮아졌다.
+하이퍼파라미터는 각각 max_depth=30, n_estimators=70, min_samples_leaf=2, min_samples_split=2로 조정했고, 결론적으로 Synthesis data를 추가하기 전보다 최고 성능이 0.001정도 낮아졌다.
 
 + **아래의 그림은 Actual values와 Predicted values의 위치를 비교한 그래프이다.**
 
