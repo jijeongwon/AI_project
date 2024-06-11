@@ -19,7 +19,7 @@
 
    3. 데이터셋 소개
 
-**Train data 788, Test data 198개로 split 해주었다.**
+**Train data 개수 : 788, Test data 개수 : 198**
 
 
 ### 이거를 쓰면 더 작아짐
