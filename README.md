@@ -164,6 +164,6 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 2. Price의 화폐가 무엇인지 알 방법이 없기 때문에 실제 자신의 보험료와 들어맞는지 직접적인 비교는 불가능하고, 자신과 비슷한 건강 정보를 가진 사람의 보험료가 얼마인지만 대략적으로 알 수 있다는 한계가 있다.
 
-3. 모델의 성능을 더욱 올릴 수 있도록 Data Synthesis 외에도 또다른 다양한 feature engineering을 시도해보면 더 좋을 것 같다.
+3. 모델의 성능을 더욱 올릴 수 있도록 Data Synthesis 외에도 또다른 다양한 feature engineering을 시도해보면 더 좋을 것 같다. (Data Synthesis 후 모델 성능 0.01 올라감.)
 
 ***
