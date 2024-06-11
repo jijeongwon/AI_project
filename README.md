@@ -100,6 +100,9 @@ Train data 개수 : 788, Test data 개수 : 198
 
 <img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/af30cf35-48dc-4fde-ab67-81031d9372eb"/>
 
+위의 [III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85) 에서도 언급했듯이, 평가 지표는 R-Squared를 사용하였고, Loss는 MAE를 사용하였다.
+
+
 ***
 
 ## V. 추후 개선 사항
