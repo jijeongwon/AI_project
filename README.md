@@ -44,8 +44,11 @@
 + Python 3, NumPy 1.23, Pandas 1.4, Scikit-learn 1.1, Matplotlib 3.6, Seaborn 0.12
 + Jupyter Notebook
 
+## II. 데이터 전처리
 
-### 이거를 쓰면 더 작아짐
+   #### 1. 기존 데이터셋을 살펴봤을 때 답변 모두 이진화가 완료되어 있었기 때문에 따로 진행하지 않았다. 
+
+
 
 ***
 
