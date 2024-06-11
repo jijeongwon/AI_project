@@ -5,6 +5,13 @@
 
 -> "Age, Diabetes, Blood Pressure Problems, Any Transplants, Any Chronic Diseases, Height, Weight, Known Allergies, History of Cancer in Family, Number of Major surgeries" 의 10가지 특성을 통해 Medical Insurance Price 예측
 
+### 목차
++ I. 프로젝트 개요
++ II. 데이터 전처리
++ III. 모델 설명
++ V. 실험 결과
++ IV. 추후 개선 사항
+
 ## I. 프로젝트 개요
 
    1. 프로젝트 배경 및 목적
