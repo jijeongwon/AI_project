@@ -39,6 +39,11 @@
 + History of Cancer in Family : 가족 내 암환자 여부
 + Number of Major surgeries : 큰 수술 횟수
 
+   4. 필요 라이브러리 및 프로그램
+
++ Python 3, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
++ Jupyter Notebook
+
 
 ### 이거를 쓰면 더 작아짐
 
