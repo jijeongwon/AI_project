@@ -13,7 +13,8 @@
 + [II. 데이터 특징 공학](https://github.com/jijeongwon/AI_project/blob/main/README.md#ii-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8A%B9%EC%A7%95-%EA%B3%B5%ED%95%99)
 + [III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85)
 + [IV. 실험 결과](https://github.com/jijeongwon/AI_project/blob/main/README.md#iv-%EC%8B%A4%ED%97%98-%EA%B2%B0%EA%B3%BC)
-+ [V. 추후 개선 사항](https://github.com/jijeongwon/AI_project/blob/main/README.md#v-%EC%B6%94%ED%9B%84-%EA%B0%9C%EC%84%A0-%EC%82%AC%ED%95%AD)
++ [V. Flask 구축](
++ [VI. 추후 개선 사항](https://github.com/jijeongwon/AI_project/blob/main/README.md#v-%EC%B6%94%ED%9B%84-%EA%B0%9C%EC%84%A0-%EC%82%AC%ED%95%AD)
 
 ***
 
@@ -122,21 +123,47 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 ## IV. 실험 결과
 
-다음은 Random Forest 모델을 사용하여 Ablation Study를 진행한 표이다. 
++ **다음은 Random Forest 모델을 사용하여 Ablation Study를 진행한 표이다.** 
 
 <img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/af30cf35-48dc-4fde-ab67-81031d9372eb"/>
 
 [III. 모델 설명](https://github.com/jijeongwon/AI_project/blob/main/README.md#iii-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EB%AA%85) 에서도 언급했듯이, 평가 지표는 **R-Squared**를 사용하였고, Loss는 **MAE**를 사용하였다.
 
-<img width="70%" src="https://github.com/jijeongwon/AI_project/assets/144203449/f488bde7-68cd-4192-8154-f8a4c9dade49"/>
+표를 보면, 실험 3에서 가장 높은 성능을 얻은 것을 알 수 있다. 하이퍼파라미터는 각각 max_depth=15, n_estimators=50, min_samples_leaf=2, min_samples_split=4로 조정했다.
+
++ **아래의 그림은 Actual values와 Predicted values의 위치를 비교한 그래프이다.**
+
+<img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/f488bde7-68cd-4192-8154-f8a4c9dade49"/>
+
+그래프를 통해 Train 데이터와 Test 데이터의 Predicted Value를 눈으로 확인할 수 있고, 이들이 Actual Value와는 어느정도 차이가 나는지도 확인이 가능하다.
+
+또한, 이를 통해 모델의 예측 성능을 짐작할 수 있다. 현재 그래프를 보면, Predicted value와 Actual value의 차이가 많이 나지 않고 y축이 0인 지점에 몰려있기 때문에 상당히 예측 성능이 좋은 것을 알 수 있다.
+
+
+
+
+
 
 ***
 
-## V. 추후 개선 사항 (+한계점)
+## V. Flask 구축
 
-1. 데이터의 갯수가 약 1000개로 적은 숫자였기 때문에 Overfitting은 일어나지 않았지만, 더욱 심도있는 데이터 분석을 하기에는 어려운 점이 있었다.
++ 모델링을 마친 후, 마지막으로 Flask 웹 페이지를 구축해보았다. 직접 설계한 머신러닝 모델을 연동한 웹페이지를 만들어 그곳에 자신의 건강 정보를 입력하면, 별도의 코드를 짜는 것 없이 바로 웹페이지에서 자신의 의료보험료를 확인할 수 있게 된다.
 
-2. 모델의 성능을 더욱 올릴 수 있도록 더 많은 feature engineering을 시도해보면 좋을 것 같다.
+(Flask 구축 위해 필요한 코드 모두 업로드 했습니다. -> app.py, home.html, result_high.html, result_mid.html, result_low.html) 
 
+
+
+
+
+***
+
+## VI. 추후 개선 사항 (+한계점)
+
+1. 데이터의 갯수가 약 1000개로 적은 숫자였기 때문에 Overfitting은 일어나지 않았지만, 더욱 심도있는 데이터 분석을 하기에는 한계가 있다.
+
+2. Price의 화폐가 무엇인지 알 방법이 없기 때문에 실제 자신의 보험료와 들어맞는지 직접적인 비교는 불가능하고, 자신과 비슷한 건강 정보를 가진 사람의 보험료가 얼마인지만 대략적으로 알 수 있다는 한계가 있다.
+
+3. 모델의 성능을 더욱 올릴 수 있도록 Data Synthesis 외에도 또다른 다양한 feature engineering을 시도해보면 더 좋을 것 같다.
 
 ***
