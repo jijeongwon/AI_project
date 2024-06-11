@@ -39,8 +39,8 @@ Train data 개수 : 788, Test data 개수 : 198
 + History of Cancer in Family : 가족 내 암환자 여부
 + Number of Major surgeries : 큰 수술 횟수
 
-<img width="80%" src="https://github.com/jijeongwon/AI_project/assets/144203449/39d6b291-8c93-41fe-a58f-a7acf03db33c"/>
-<img width="80%" src="https://github.com/jijeongwon/AI_project/assets/144203449/2edbc2ad-704b-438a-8e33-0e215719f508"/>
+<img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/39d6b291-8c93-41fe-a58f-a7acf03db33c"/>
+<img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/2edbc2ad-704b-438a-8e33-0e215719f508"/>
   
 #### 4. 필요 라이브러리 및 프로그램
 
