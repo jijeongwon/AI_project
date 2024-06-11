@@ -50,11 +50,12 @@
    
     # 상관관계 높은 것끼리 데이터 합성
 
-df['synthesis_1'] = df['AnyTransplants'] * df['AnyChronicDiseases']
-df['synthesis_2'] = df['AnyTransplants'] * df['NumberOfMajorSurgeries']
-df['synthesis_3'] = df['NumberOfMajorSurgeries'] * df['AnyChronicDiseases']
-df['synthesis_4'] = df['AnyTransplants'] + df['AnyChronicDiseases'] + df['NumberOfMajorSurgeries']
-df['synthesis_5'] = df['BloodPressureProblems'] + df['NumberOfMajorSurgeries']
+    df['synthesis_1'] = df['AnyTransplants'] * df['AnyChronicDiseases']
+    df['synthesis_2'] = df['AnyTransplants'] * df['NumberOfMajorSurgeries']
+    df['synthesis_3'] = df['NumberOfMajorSurgeries'] * df['AnyChronicDiseases']
+    df['synthesis_4'] = df['AnyTransplants'] + df['AnyChronicDiseases'] + 
+    df['NumberOfMajorSurgeries']
+    df['synthesis_5'] = df['BloodPressureProblems'] + df['NumberOfMajorSurgeries']
 
 
 ***
