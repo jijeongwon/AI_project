@@ -150,7 +150,7 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 + 모델링을 마친 후, 마지막으로 Flask 웹 페이지를 구축해보았다. 직접 설계한 머신러닝 모델을 연동한 웹페이지를 만들어 그곳에 자신의 건강 정보를 입력하면, 별도의 코드를 짜는 것 없이 바로 웹페이지에서 자신의 의료보험료를 확인할 수 있게 된다.
 
-### [Flask.zip](https://github.com/jijeongwon/AI_project/raw/main/flask.zip) 을 클릭 후, 웹페이지를 실행시켜 자신의 의료보험료를 알아보세요.
+### [Flask.zip](https://github.com/jijeongwon/AI_project/raw/main/flask.zip) 을 클릭 후, 웹페이지를 실행시켜 자신의 의료보험료를 확인해보세요.
 
 
 ***
