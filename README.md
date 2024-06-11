@@ -49,7 +49,7 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
   
 #### 4. 필요 라이브러리 및 프로그램
 
-+ Python 3, NumPy 1.23, Pandas 1.4, Scikit-learn 1.1, Matplotlib 3.6, Seaborn 0.12
++ Python 3, NumPy 1.25.2, Pandas 2.0.3, Scikit-learn 1.2.2, Matplotlib 3.7.1, Seaborn 0.12
 + Jupyter Notebook
 
 ***
