@@ -89,7 +89,7 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
   + n_estimators, max_depth, min_samples_leaf, min_samples_split 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
   + **Train : 0.9152, Test : 0.9020**
   + **Loss : 957.7**
-
+    
     -----------------------------------------------
     Training Model LR
     Training R-squared: 0.6337588161308307
