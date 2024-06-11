@@ -64,8 +64,7 @@ Train data 개수 : 788, Test data 개수 : 198
     df['synthesis_1'] = df['AnyTransplants'] * df['AnyChronicDiseases']
     df['synthesis_2'] = df['AnyTransplants'] * df['NumberOfMajorSurgeries']
     df['synthesis_3'] = df['NumberOfMajorSurgeries'] * df['AnyChronicDiseases']
-    df['synthesis_4'] = df['AnyTransplants'] + df['AnyChronicDiseases'] + 
-    df['NumberOfMajorSurgeries']
+    df['synthesis_4'] = df['AnyTransplants'] + df['AnyChronicDiseases'] + df['NumberOfMajorSurgeries']
     df['synthesis_5'] = df['BloodPressureProblems'] + df['NumberOfMajorSurgeries']
 
 ***
