@@ -145,10 +145,27 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 또한, 이를 통해 모델의 예측 성능을 짐작할 수 있다. 현재 그래프를 보면, Predicted value와 Actual value의 차이가 많이 나지 않고 y축이 0인 지점에 몰려있기 때문에 상당히 예측 성능이 좋은 것을 알 수 있다.
 
-+ **실제로 건강 정보 데이터를 넣었을 때의 결과를 확인해보자.**
++ **실제로 건강 정보 데이터를 랜덤으로 넣었을 때의 결과를 확인해보자.**
 
+    # 랜덤 데이터 넣어 결과 예측
+    input_data = (28,1,1,0,0,175,75,1,0,0,0,0,0,0,1)
+    input_data_array = np.asarray(input_data)
 
+    #reshaping the data so that it works for only one instance at a time
+    input_data_reshaped = input_data_array.reshape(1,-1)
 
+    prediction = model.predict(input_data_reshaped)
+    print('Predicted Medical Insurance Cost : ', str(prediction))
+
+결과는 **15,380**이 나왔다. 
+
+이를 같은 나이인 사람들의 데이터와 비교해보면,
+
+    # 평균값과 비교해보기
+    mean = df[df['Age'] == 28]['PremiumPrice'].mean()
+    mean
+    
+**17,782**가 나왔다. 랜덤 데이터를 넣었을 때 얼추 평균과 맞는 것을 보면, 예측이 잘 되고 있는 것이라고 짐작할 수 있다.
 
 ***
 
