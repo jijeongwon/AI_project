@@ -98,7 +98,7 @@ Train data 개수 : 788, Test data 개수 : 198
 
 #### 다음은 Random Forest 모델을 사용하여 Ablation Study를 진행한 표이다. 
 
-
+<img width="60%" src="https://github.com/jijeongwon/AI_project/assets/144203449/af30cf35-48dc-4fde-ab67-81031d9372eb"/>
 
 ***
 
