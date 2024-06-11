@@ -41,7 +41,7 @@
   
 #### 4. 필요 라이브러리 및 프로그램
 
-+ Python 3, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
++ Python 3, NumPy 1.23, Pandas 1.4, Scikit-learn 1.1, Matplotlib 3.6, Seaborn 0.12
 + Jupyter Notebook
 
 
