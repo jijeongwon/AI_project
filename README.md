@@ -75,6 +75,21 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 (평가 지표는 R-Squared를 사용하였고, Loss는 MAE를 사용하였다.)
 
++ **Gradient Boosting**
+  + learning_rate, n_estimators, max_depth, min_samples_leaf 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
+  + **Train : 0.9192, Test : 0.8806**
+  + **Loss : 1387.4**
+
++ **LightGBM**
+  + num_leaves, min_child_samples, learning_rate, n_estimators, max_depth 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
+  + **Train : 0.9253, Test : 0.8905**
+  + **Loss : 1192.5**
+
++ **Random Forest**
+  + n_estimators, max_depth, min_samples_leaf, min_samples_split 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
+  + **Train : 0.9152, Test : 0.9020**
+  + **Loss : 957.7**
+
     -----------------------------------------------
     Training Model LR
     Training R-squared: 0.6337588161308307
@@ -96,21 +111,6 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
     Testing R-squared: 0.7983571856679336
     Mean Absolute Error: 2082.1281143876554
     -----------------------------------------------
-
-+ **Gradient Boosting**
-  + learning_rate, n_estimators, max_depth, min_samples_leaf 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
-  + **Train : 0.9192, Test : 0.8806**
-  + **Loss : 1387.4**
-
-+ **LightGBM**
-  + num_leaves, min_child_samples, learning_rate, n_estimators, max_depth 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
-  + **Train : 0.9253, Test : 0.8905**
-  + **Loss : 1192.5**
-
-+ **Random Forest**
-  + n_estimators, max_depth, min_samples_leaf, min_samples_split 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
-  + **Train : 0.9152, Test : 0.9020**
-  + **Loss : 957.7**
 
 #### 테스트 해본 여러가지 모델 중 Random Forest 모델이 가장 높은 정확도를 가지고 있으며, 다양한 데이터에 대한 처리 및 해석에 유용하다고 생각했기 때문에 최종적으로 이 모댈을 활용하여 의료 보험료 예측 모델을 설계하였다. 
 
