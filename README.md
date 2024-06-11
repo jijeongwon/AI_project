@@ -8,7 +8,7 @@
 ### 목차
 
 + [I. 프로젝트 개요](https://github.com/jijeongwon/AI_project/blob/main/README.md#i-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
-+ II. 데이터 전처리
++ II. 데이터 특징공학
 + III. 모델 설명
 + V. 실험 결과
 + IV. 추후 개선 사항
@@ -44,10 +44,17 @@
 + Python 3, NumPy 1.23, Pandas 1.4, Scikit-learn 1.1, Matplotlib 3.6, Seaborn 0.12
 + Jupyter Notebook
 
-## II. 데이터 전처리
+## II. 데이터 특징공학
 
-   #### 1. 기존 데이터셋을 살펴봤을 때 답변 모두 이진화가 완료되어 있었기 때문에 따로 진행하지 않았다. 
+   #### 1. 기존 데이터셋을 살펴봤을 때 답변 모두 이진화가 완료되어 있었기 때문에 따로 진행하지 않았지만, 기존보다 더 나은 결과를 얻기 위해 Data Synthesis를 진행하여 feature 수를 늘렸다.
+   
+    # 상관관계 높은 것끼리 데이터 합성
 
+df['synthesis_1'] = df['AnyTransplants'] * df['AnyChronicDiseases']
+df['synthesis_2'] = df['AnyTransplants'] * df['NumberOfMajorSurgeries']
+df['synthesis_3'] = df['NumberOfMajorSurgeries'] * df['AnyChronicDiseases']
+df['synthesis_4'] = df['AnyTransplants'] + df['AnyChronicDiseases'] + df['NumberOfMajorSurgeries']
+df['synthesis_5'] = df['BloodPressureProblems'] + df['NumberOfMajorSurgeries']
 
 
 ***
