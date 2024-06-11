@@ -38,6 +38,9 @@ Train data 개수 : 788, Test data 개수 : 198
 + Known Allergies : 알러지 유무
 + History of Cancer in Family : 가족 내 암환자 여부
 + Number of Major surgeries : 큰 수술 횟수
+
+<img width="80%" src="https://github.com/jijeongwon/AI_project/assets/144203449/39d6b291-8c93-41fe-a58f-a7acf03db33c"/>
+
   
 #### 4. 필요 라이브러리 및 프로그램
 
