@@ -8,7 +8,7 @@
 ### 목차
 
 + [I. 프로젝트 개요](https://github.com/jijeongwon/AI_project/blob/main/README.md#i-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94)
-+ [II. 데이터 특징공학](
++ [II. 데이터 특징공학](https://github.com/jijeongwon/AI_project/blob/main/README.md#ii-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%8A%B9%EC%A7%95%EA%B3%B5%ED%95%99)
 + III. 모델 설명
 + V. 실험 결과
 + IV. 추후 개선 사항
