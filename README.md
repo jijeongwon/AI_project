@@ -147,7 +147,6 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 + **실제로 건강 정보 데이터를 랜덤으로 넣었을 때의 결과를 확인해보자.**
 
-    #랜덤 데이터 넣어 결과 예측
     input_data = (28,1,1,0,0,175,75,1,0,0,0,0,0,0,1)
     input_data_array = np.asarray(input_data)
 
@@ -161,7 +160,6 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 이를 같은 나이인 사람들의 데이터와 비교해보면,
 
-    #평균값과 비교해보기
     mean = df[df['Age'] == 28]['PremiumPrice'].mean()
     mean
     
