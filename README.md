@@ -71,9 +71,31 @@ Train data 개수 : 788, Test data 개수 : 198 로 나누어주었다.
 
 ## III. 모델 설명
 
-1. 머신러닝 모델 : 다양한 모델링 기법을 사용하며 성능을 개선하기 위해 비교해 보았다. 다음은 여러 모델(LR, DT, MLP, Ada, ELasticNet, ...) 중 성능이 가장 높았던 세 가지를 순서대로 나열한 것이다.
+1. 머신러닝 모델 : 다양한 모델링 기법을 사용하며 성능을 개선하기 위해 비교해 보았다. 다음은 여러 모델(LR, DT, MLP, Ada, ...) 중 성능이 가장 높았던 세 가지를 순서대로 나열한 것이다.
 
 (평가 지표는 R-Squared를 사용하였고, Loss는 MAE를 사용하였다.)
+
+    -----------------------------------------------
+    Training Model LR
+    Training R-squared: 0.6337588161308307
+    Testing R-squared: 0.7218350405543559
+    Mean Absolute Error: 2547.1153376972325
+    -----------------------------------------------
+    Training Model DT 
+    Training R-squared: 0.7676052395194115
+    Testing R-squared: 0.8793249474437426
+    Mean Absolute Error: 1357.778804266782
+    -----------------------------------------------
+    Training Model MLP Regressor
+    Training R-squared: 0.6556950762062116
+    Testing R-squared: 0.7407113432497212
+    Mean Absolute Error: 2349.4856341313366
+    -----------------------------------------------
+    Training Model AdaBoost
+    Training R-squared: 0.7081650991544655
+    Testing R-squared: 0.7983571856679336
+    Mean Absolute Error: 2082.1281143876554
+    -----------------------------------------------
 
 + **Gradient Boosting**
   + learning_rate, n_estimators, max_depth, min_samples_leaf 등의 하이퍼파라미터를 조정해가며 최적의 성능을 도출.
