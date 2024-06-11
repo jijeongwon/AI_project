@@ -51,7 +51,7 @@ Train data 개수 : 788, Test data 개수 : 198
 
    #### 1. 기존 데이터셋을 살펴봤을 때 답변 모두 이진화가 완료되어 있었기 때문에 따로 진행하지 않았지만, 기존보다 더 나은 결과를 얻기 위해 Data Synthesis를 진행하여 feature 수를 늘렸다.
 
-<img width="80%" src="https://github.com/jijeongwon/AI_project/assets/144203449/78ae31fe-12ba-40f7-a0e6-835bff7766cb"/>
+<img width="50%" src="https://github.com/jijeongwon/AI_project/assets/144203449/78ae31fe-12ba-40f7-a0e6-835bff7766cb"/>
    
     # 상관관계 높은 것끼리 데이터 합성
 
